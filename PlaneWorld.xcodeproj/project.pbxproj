@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7013246C22D5FBBA00BCA138 /* PlaneObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013246B22D5FBBA00BCA138 /* PlaneObj.swift */; };
+		7017657922CCF2EA00C1681C /* PlaneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7017657822CCF2EA00C1681C /* PlaneViewModel.swift */; };
 		707DD92922CC4E8E0040BA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DD92822CC4E8E0040BA46 /* AppDelegate.swift */; };
 		707DD92B22CC4E8E0040BA46 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 707DD92A22CC4E8E0040BA46 /* art.scnassets */; };
 		707DD92D22CC4E8E0040BA46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DD92C22CC4E8E0040BA46 /* ViewController.swift */; };
 		707DD93022CC4E8E0040BA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DD92E22CC4E8E0040BA46 /* Main.storyboard */; };
 		707DD93222CC4E900040BA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707DD93122CC4E900040BA46 /* Assets.xcassets */; };
 		707DD93522CC4E900040BA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DD93322CC4E900040BA46 /* LaunchScreen.storyboard */; };
+		70C2D82722CE3A6300B57D74 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70C2D82522CE3A6300B57D74 /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7013246B22D5FBBA00BCA138 /* PlaneObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneObj.swift; sourceTree = "<group>"; };
+		7017657822CCF2EA00C1681C /* PlaneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewModel.swift; sourceTree = "<group>"; };
 		707DD92522CC4E8E0040BA46 /* PlaneWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707DD92822CC4E8E0040BA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		707DD92A22CC4E8E0040BA46 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		707DD93122CC4E900040BA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		707DD93422CC4E900040BA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		707DD93622CC4E900040BA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C2D82622CE3A6300B57D74 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7013246A22D5FBA800BCA138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7013246B22D5FBBA00BCA138 /* PlaneObj.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		707DD91C22CC4E8E0040BA46 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +70,16 @@
 		707DD92722CC4E8E0040BA46 /* PlaneWorld */ = {
 			isa = PBXGroup;
 			children = (
+				7013246A22D5FBA800BCA138 /* Model */,
 				707DD92822CC4E8E0040BA46 /* AppDelegate.swift */,
 				707DD92A22CC4E8E0040BA46 /* art.scnassets */,
 				707DD92C22CC4E8E0040BA46 /* ViewController.swift */,
+				70C2D82522CE3A6300B57D74 /* CoreDataModel.xcdatamodeld */,
 				707DD92E22CC4E8E0040BA46 /* Main.storyboard */,
 				707DD93122CC4E900040BA46 /* Assets.xcassets */,
 				707DD93322CC4E900040BA46 /* LaunchScreen.storyboard */,
 				707DD93622CC4E900040BA46 /* Info.plist */,
+				7017657822CCF2EA00C1681C /* PlaneViewModel.swift */,
 			);
 			path = PlaneWorld;
 			sourceTree = "<group>";
@@ -140,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				707DD92D22CC4E8E0040BA46 /* ViewController.swift in Sources */,
+				7017657922CCF2EA00C1681C /* PlaneViewModel.swift in Sources */,
+				7013246C22D5FBBA00BCA138 /* PlaneObj.swift in Sources */,
+				70C2D82722CE3A6300B57D74 /* CoreDataModel.xcdatamodeld in Sources */,
 				707DD92922CC4E8E0040BA46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70C2D82522CE3A6300B57D74 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70C2D82622CE3A6300B57D74 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 70C2D82622CE3A6300B57D74 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 707DD91D22CC4E8E0040BA46 /* Project object */;
 }
