@@ -23,7 +23,6 @@ class PlaneObj : SCNNode {
     init(_ anchor: ARPlaneAnchor) {
         
         self.planeAnchor = anchor
-        
        
         self.planeGeometry = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
         let material = SCNMaterial()

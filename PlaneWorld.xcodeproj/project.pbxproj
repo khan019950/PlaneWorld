@@ -43,14 +43,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7013246A22D5FBA800BCA138 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7013246B22D5FBBA00BCA138 /* PlaneObj.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		707DD91C22CC4E8E0040BA46 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +62,8 @@
 		707DD92722CC4E8E0040BA46 /* PlaneWorld */ = {
 			isa = PBXGroup;
 			children = (
-				7013246A22D5FBA800BCA138 /* Model */,
 				707DD92822CC4E8E0040BA46 /* AppDelegate.swift */,
+				7013246B22D5FBBA00BCA138 /* PlaneObj.swift */,
 				707DD92A22CC4E8E0040BA46 /* art.scnassets */,
 				707DD92C22CC4E8E0040BA46 /* ViewController.swift */,
 				70C2D82522CE3A6300B57D74 /* CoreDataModel.xcdatamodeld */,
